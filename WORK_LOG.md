@@ -1,9 +1,9 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date    |  Time  |                                                                                                                                                                                                                                                                                                                                                                                                                                                  Update |
+|:--------|:------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| April 5 | 9-10pm |                                                                                                                                                                                                                                                                                                                                                                                                              I tried to write abstract, efficient code. |
+| Jan 11  | 8-9pm  | I think I might have done one of the most stupid things of all time. I had finished writing my code and was pretty sure it was all correct but when I checked it the edge case one was wrong. It turned out that I had accidentally typed the letter f onto the first line which caused an error. I probably did it when I was looking at the txt for what the edge case was but it was pretty annoying. In the end though I was happy to get it done.  |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
