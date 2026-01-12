@@ -81,9 +81,40 @@ public class TST {
         return false;
     }
 
+    public boolean hasPrefix(String word) {
+        TSTNode current = root;
+        int index = 0;
+        // Goes until reaching the length of the word or the node you need to go to doesn't have a letter
+        while (current != null && index < word.length()) {
+            char c = word.charAt(index);
+            char middle = current.getLetter();
+            // If letter is less than letter you are checking go left
+            if (c < middle) {
+                current = current.getLeft();
+            }
+            // Same thing but go right for greater letter
+            else if (c > middle) {
+                current = current.getRight();
+            }
+            // Letter is same as letter you are checking
+            else {
+                index++;
+                // If you have reached the prefix return true
+                if (index == word.length()) {
+                    return true;
+                }
+                // Otherwise move on
+                current = current.getMid();
+            }
+        }
+        // If not found then return false
+        return false;
+    }
+
     // Class for node for tst
     private class TSTNode {
         private boolean isWord;
+        private boolean isVisited;
         private char letter;
         private TSTNode left;
         private TSTNode right;
